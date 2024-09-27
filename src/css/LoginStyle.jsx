@@ -2,12 +2,10 @@ import styled from 'styled-components'
 export const LoginStyle = styled.section `
 
 .container{
-    width:100%;
-    margin:0 auto;
-
+    margin-top:3rem;
 }
 .container_login{
-    width:100%;
+
     min-height:80vh;
     display:flex;
     flex-wrap:wrap;
@@ -31,6 +29,8 @@ export const LoginStyle = styled.section `
     font-size: 40px;
     line-height: 1.3;
     text-align: center;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .w_input{
@@ -38,7 +38,7 @@ export const LoginStyle = styled.section `
     position: relative;
     margin-top: 30px;
     margin-bottom: 30px;
-    border-bottom:2px solid red;
+    border-bottom:2px solid midnightblue;
 }
 
 .input_form{
@@ -77,6 +77,8 @@ export const LoginStyle = styled.section `
 .utils{
     margin-top:20px;
     margin-bottom:20px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .text1{
@@ -85,12 +87,6 @@ export const LoginStyle = styled.section `
 
 .text2{
     color: #170080;
-}
-
-img{
-    width:300px;
-    height: 200px;
-    margin: 1.5px;
 }
 
 `
